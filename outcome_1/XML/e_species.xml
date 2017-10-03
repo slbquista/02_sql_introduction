@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>1</ID>
+  <SPECIES>Yellow-headed caracara</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>2</ID>
+  <SPECIES>Snake-necked turtle</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>3</ID>
+  <SPECIES>Ferret, black-footed</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>4</ID>
+  <SPECIES>Fowl, helmeted guinea</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>5</ID>
+  <SPECIES>Eagle, bateleur</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>6</ID>
+  <SPECIES>Cape white-eye</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>7</ID>
+  <SPECIES>Macaw, blue and gold</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>8</ID>
+  <SPECIES>Lark, horned</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>9</ID>
+  <SPECIES>Partridge, coqui</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>10</ID>
+  <SPECIES>Possum, ring-tailed</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>11</ID>
+  <SPECIES>Feral rock pigeon</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>12</ID>
+  <SPECIES>Frogmouth, tawny</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>13</ID>
+  <SPECIES>Flicker, campo</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>14</ID>
+  <SPECIES>Tyrant flycatcher</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>15</ID>
+  <SPECIES>Grant&apos;s gazelle</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>16</ID>
+  <SPECIES>Stork, woolly-necked</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>17</ID>
+  <SPECIES>Tortoise, indian star</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>18</ID>
+  <SPECIES>Sifaka, verreaux&apos;s</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>19</ID>
+  <SPECIES>Spotted wood sandpiper</SPECIES>
+ </ROW>
+ <ROW>
+  <ID>20</ID>
+  <SPECIES>Hornbill, southern ground</SPECIES>
+ </ROW>
+</ROWSET>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>1</ID>
+  <DESCRIPTION>Animal Shelters</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>2</ID>
+  <DESCRIPTION>Aquatic Supplies</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>3</ID>
+  <DESCRIPTION>Boarding Kennels</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>4</ID>
+  <DESCRIPTION>Cat Club Organisations</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>5</ID>
+  <DESCRIPTION>Cat Grooming</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>6</ID>
+  <DESCRIPTION>Catteries</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>7</ID>
+  <DESCRIPTION>Dog Club Organisations</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>8</ID>
+  <DESCRIPTION>Dog Grooming</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>9</ID>
+  <DESCRIPTION>Dog Training</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>10</ID>
+  <DESCRIPTION>Dog Walking</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>11</ID>
+  <DESCRIPTION>Pet Franchises</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>12</ID>
+  <DESCRIPTION>Garden Supplies</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>13</ID>
+  <DESCRIPTION>General Bird Websites</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>14</ID>
+  <DESCRIPTION>General Cat Websites</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>15</ID>
+  <DESCRIPTION>General Dog Websites</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>16</ID>
+  <DESCRIPTION>General Pet Websites</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>17</ID>
+  <DESCRIPTION>Guinea Pigs</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>18</ID>
+  <DESCRIPTION>Horses and Ponies</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>19</ID>
+  <DESCRIPTION>Lost Cats</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>20</ID>
+  <DESCRIPTION>Lost Dogs</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>21</ID>
+  <DESCRIPTION>Pet Artists</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>22</ID>
+  <DESCRIPTION>Pet Cemetries</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>23</ID>
+  <DESCRIPTION>Pet Forums</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>24</ID>
+  <DESCRIPTION>Pet Accommodation</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>25</ID>
+  <DESCRIPTION>Pet Gifts</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>26</ID>
+  <DESCRIPTION>Pet Health</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>27</ID>
+  <DESCRIPTION>Pet Insurance</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>28</ID>
+  <DESCRIPTION>Pet Magazines</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>29</ID>
+  <DESCRIPTION>Pet Photography</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>30</ID>
+  <DESCRIPTION>Pet Portraits</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>31</ID>
+  <DESCRIPTION>Pet Rescue</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>32</ID>
+  <DESCRIPTION>Pet Sitters and Sitting</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>33</ID>
+  <DESCRIPTION>Pet Services</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>34</ID>
+  <DESCRIPTION>Pet Shops</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>35</ID>
+  <DESCRIPTION>Pet Software</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>36</ID>
+  <DESCRIPTION>Rats and Rodents</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>37</ID>
+  <DESCRIPTION>Reptiles and Amphibians</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>38</ID>
+  <DESCRIPTION>Veterinary Clinics</DESCRIPTION>
+ </ROW>
+ <ROW>
+  <ID>39</ID>
+  <DESCRIPTION>Wholesale Pet Supplies</DESCRIPTION>
+ </ROW>
+</ROWSET>

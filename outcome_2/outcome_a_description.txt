@@ -1,0 +1,123 @@
+-------------------------------------------------------------------------------
+ SQL Outcome 2 part 1 (APEX)
+-------------------------------------------------------------------------------
+Use notepad++ 
+Write DML statements for the tasks [1]-[12]. 
+In APEX, execute every query individually, and save a screen shot (.PNG file),
+showing 
+
+  (a) your user name, 
+  (b) the code you have written, and
+  (c) the output and/or message(s) from the server.
+
+Avoid "whole screen" screen shots!  
+Use Alt - Print Screen for getting a single window.
+Avoid screen shots that do not contain the items (a), (b), and (c).
+
+Copy the image files into an "archive" folder labelled with your name, and upload
+it to mylearning (SQL unit, outcome 2b). 
+
+PREREQUISITES: you need to have (populated) database tables of outcome 1
+for all of the tasks (DDL and INSERTs for this: see SQL folder).  
+Additional files needed for this outcome are stored in the SQL folder 
+on the W:\ network drive.
+
+WARNING: DO NOT use DDL statements for this outcome.  (Avoid CREATE TABLE and
+ALTER TABLE).
+
+-------------------------------------------------------------------------------
+ Tasks
+-------------------------------------------------------------------------------
+[1] Write a SELECT (query) that returns the number (ie a single integer) 
+    of registered pet owners (table E_OWNERS)
+
+    
+[2] Write SQL statements that modify the first name and last name 
+    of the following pet owners:
+
+    id 111 -> Roberto Bloggs
+	id 112 -> Michelle McDonald
+	id 113 -> Joe Campbell
+	id 114 -> Fiona Johnstone
+	
+
+[3]	Code and run a SQL query that only returns the rows 111 to 114 
+    of the E_OWNERS table.  Make sure that the owners' names 
+	have been changed according to the requirements of task 2.
+	
+	
+[4] Add some data to the E_OWNER_INTERESTS table:
+
+    Pet owner with the IDs 201, and 202, respectively,
+    are interested in "Cat Grooming".  Write 2 short SQL statements
+    that generate the necessary data.  HINT: you need to know the 
+	interest id for the "Cat Grooming".  You know where to find it.
+
+    Check the "results" of these statements by SELECTing the rows affected.
+
+    
+[5] Write a query that returns the owner ids, their names, and names
+    of the "special interest groups" they are members of.
+    
+	[Hints: use a SQL join.  
+	 Build the query step-by-step, adding clauses and conditions as required. ]
+
+	
+[6] Modify query [5], so that the data from the first_name
+    and last_name columns is displayed in a SINGLE column called
+    Owner Names.  Make sure that there is a space between
+	the first and last names in the new column. 
+
+	
+[7] Write a SQL statement whose result set contains ids and the TOTAL amount of
+    vet bills for each owner (id) stored in the E_VET_BILLS table.  The ids with
+    the highest (total) bills must be displayed at the top of the list.
+    
+    Hint: use a GROUP BY clause
+
+
+[8] Write _one_ SQL query that returns the sum, the average, and the standard deviation
+    of the "amount" values stored in the E_VET_BILLS table.
+    
+ 
+[9] Modify query [8] so that the generated column headings read:
+      
+      grand total
+	  average bill
+      standard deviation	
+	  
+	  IN addition to this, the output must be ROUNDED as follows:
+	  Average: 2 decimals, standard deviation: 3 decimals.
+ 	  
+	  
+[10] You need the names of all registered pet owners (ie first and last names 
+	 from the e_owners table), in combination with the names of their pets and the 
+	 pets' "species" information (to be found in table E_SPECIES).
+		 
+	 Hint: use a JOIN.
+     
+     Make sure that 
+     (a) all COLUMNS appear ONLY ONCE in the output
+	 (b) the rows are sorted by owners' first name ascending 
+	      AND pet "species" descending SO THAT owners will be grouped by "species"
+		  (without using a GROUP BY clause).
+		  
+
+[11]  Create a copy of the e_owners table.  Name of the new table : E_OWNERS_COPY.
+      
+      USE the E_OWNERS_COPY table: delete all rows with ids smaller than 100 and greater
+      than 999.   
+      
+      HINT: write a SELECT first, make sure the conditions you are using are
+      correct, then use the (correct) conditions for deleting the rows.
+       
+       
+[12]  Write an "update" statement for the E_OWNERS_COPY table.  
+      You need email addresses for each registered owner,
+      using the following format: <first_name>.<last_name>@pets.org.uk 
+      Use lower case letters for this eg
+      annabel.craythorn@pets.org.uk   
+      
+      HINT: Use a select for finding the correct syntax, then run the update. 
+      Use "select * from e_owners_copy" to check that all email addresses have
+      been generated. 

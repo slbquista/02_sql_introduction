@@ -1,0 +1,89 @@
+------------------------------------------------------------------------------
+[part 1]  Structure/layout
+------------------------------------------------------------------------------
+
+Write all SQL (DDL) statements required for creating a relational database,
+according to the relational model given to you.
+Save the code as .sql file, 
+make sure that your name is part of the file name, 
+and upload the file to "mylearning17.dundeeandangus.ac.uk" 
+(link: 1a ...).
+
+
+
+------------------------------------------------------------------------------
+[part 2]  Data import, manual inserts, and table modification
+------------------------------------------------------------------------------
+
+[A]
+ In APEX, execute the DDL statements that you have coded in [part 1]
+as a script.
+
+Then upload data from .xml files into the tables 
+you have created.
+
+Run a SELECT * statement for each table, and create screen shots of the
+result sets of these statements.
+
+Save the screen shot as .PNG files.  
+Avoid "whole screen" screen shots.
+(Use Alt - Print Screen for getting a single window).
+
+
+
+
+
+[B] 
+Change the database structure as follows:
+ Collect screen shots of steps [1] - [7].
+
+Notice the error messages
+ triggered and learn from them!
+
+
+
+
+
+[1] Table E_OWNERS: 
+Change the data type of the id column so that it can accommodate
+	38-digit integer numbers.  NOTE: this will throw an error. Why?
+
+
+
+[2] Use SQL INSERT statements to add the following student records
+    (table E_OWNERS):  12345678 James Fowler, 87654321 Gertrud Menzies
+
+
+[3] Table E_OWNERS:
+    Add a column for email addresses (column name: emailaddress).  
+	Make sure that the length of an email address can be up to 64 characters.
+
+
+
+[4] Table E_VET_BILLS:
+    Create a copy of this table.  Name of the copy: E_VET_BILLS_COPY.
+
+
+
+[5] Rename the E_VET_BILLS_COPY table to E_VAT.
+
+
+
+[6] Add a column (heading: vat_percent) to the E_VAT table.
+ This column must hold 4 digits (2 decimals).  Use an appropriate data type.
+
+
+
+[7] Delete the E_VAT table.  NOTE: this may throw an error. Why?
+ (Delete the correct database object!)
+
+
+
+
+
+[C] 
+Copy ALL files (.sql and .png) into a "compressed folder",
+
+
+Use .ZIP (! avoid .RAR) give it an appropriate name (containing your name),  
+upload it to "mylearning" (link: 1b ...).

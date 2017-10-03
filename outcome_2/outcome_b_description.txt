@@ -1,0 +1,54 @@
+-----------------------------------------------------------------------
+ Please keep screen shots of all queries (and their outputs) that you
+ have executed using the SQL command line client (sqlcl).  
+ 
+ Once you have done this,
+ copy the image files into a folder labelled with your name, and upload
+ it to mylearning (SQL unit, outcome 2b). 
+-----------------------------------------------------------------------
+ database server logon:  <username>
+                         password
+						 10.1.9.106/sw2
+-----------------------------------------------------------------------
+
+set sqlformat ansiconsole
+
+-----------------------------------------------------------------------
+ CALCULATIONS, FUNCTIONS, DROP TABLE 
+-----------------------------------------------------------------------
+
+Write SQL statements for the following purposes:
+
+[ USE SELECT and FUNCTIONS ]
+
+[2b1] Find the lowest, highest, and average amount billed (table e_vet_bills).
+
+[2b2] Find the "Grand Total" (sum) of all bills (table e_vet_bills).
+
+[2b3] Display the first_name and last_name of e_owners as follows:
+
+    - first_name values and last_name values IN ONE COLUMN,
+    - last_name values ALL UPPER CASE	
+    - column heading: owners 2017  (lower case!)
+
+    Do NOT use the concatenation operator (||) for this.
+	Use the SQL concatenation function.
+
+	
+[ use calculations in a SELECT statement]
+
+[2b4] Write a query that finds all last_names (table e_owners), and outputs the
+    following "calculated" columns:
+    - a column that displays the total amount of vet bills the owner has paid
+    - a column "discount", which must be 4 % of the "amount" 
+    - a column "amount - discount", containing correctly calculated values
+
+	
+[ COPY and DROP a table ]
+
+
+[2b5] create a copy of the e_owners table; table name: e_owners_copy.
+    Use DESCRIBE and SELECT * as a proof that the new table has been
+    created.
+
+[2b6] use a SQL DROP statement for removing the new table (e_owners_copy). 

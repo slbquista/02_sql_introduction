@@ -1,0 +1,42 @@
+CREATE TABLE
+
+create table t0 ( column1 number ) ;
+create table t1 ( stockid number, qty number );
+
+
+CREATE TABLE (BETTER) INLINE CONSTRAINTS
+
+create table t3 (
+  stockid number UNIQUE NOT NULL
+, qty number NOT NULL
+);
+
+
+CREATE NEW TABLE AS COPY OF TABLE
+
+create table t2 as select * from t1;
+
+
+READ FROM TABLE
+
+select * from t0;
+select * from t1;
+
+
+READ FROM TABLE WHERE (SPECIFY SOMETHING)
+
+select * from t1 where stockid IS NULL ;
+
+
+DROP TABLE
+
+drop table t1 ;
+
+
+WRITING DATA TO TABLE
+
+begin
+  insert into t3 (stockid, qty) values (1,100) ;
+  insert into t3 (stockid, qty) values (2,200) ;
+  insert into t3 (stockid, qty) values (3,300) ;  
+end;
