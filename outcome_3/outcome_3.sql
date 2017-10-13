@@ -9,6 +9,7 @@ FROM E_VET_BILLS;
 
 select * from Task_1;
 
+
 -- Task 2
 create or replace view Task_2 (c1, c2, c3, c4) as
 SELECT
@@ -22,30 +23,35 @@ group by e_owner_id;
 select * from Task_2
 order by c3 asc;
 
+
 -- Task 3
 
-create or replace view Task_3 (c1, c2, c3) as
+create or replace view Task_3 (c1, c2, c3, c4) as
 
-select 1,
+select
+	1,
 	to_char(e_owner_id),
 	to_char(billing_date, 'DD/MM/YYYY'),
-	to_char(amount)
+	amount
 from e_vet_bills
---This much runs
+
 union
 
-select 2,
+select
+	2,
 	to_char('Total for owner ' || e_owner_id),
 	null,
-	to_char(sum(amount))
+	sum(amount)
 from e_vet_bills
 group by e_owner_id
---This works on it's owner
+
 union
 
-select 3,
-	"Grand Total",
+select
+	3,
+	to_char('Grand Total'),
 	null,
-	to_char(sum(amount));
+	sum(amount)
+from e_vet_bills
 
-select c1, c2, c3 from Task_3;
+select c1, c2, c3, c4 from Task_3;
